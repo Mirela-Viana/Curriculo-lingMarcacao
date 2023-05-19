@@ -8,22 +8,137 @@
     <title>Currículo Mirela</title>
 </head>
 <style>
+
+.Navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    margin: -10px;
+    height: 15%;
+    justify-content: space-around;
+    background-color: #00000065;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Navbar div {
+    font-size: 50px;
+    background-color: #00000065;
+    border-radius: 20px;
+    width: 10%;
+    height: 75%;
+    text-align: center;
+}
+
+.Navbar div a {
+    text-decoration: none;
+    color: white;
+}
+    img {
+        border-radius: 360px;
+        width: 200px;
+        height: 200px;
+    }
+
     p {
-        color: rgb(255, 255, 255)
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
     }
 
     body {
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(201, 200, 200);
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .rightText {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+
+    h2 {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif
+    }
+
+    h3{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif
     }
 </style>
 
 <body>
-    <div style="padding: 10px; margin-top: 10px;height: 1000px">
-        <h1 style="font-size:50px; color:rgb(255, 255, 255)">Mirela de Melo Viana</h1>
-        <hr>
-        <p style="font-size:25px;">Data de nascimento: 27/09/2006</p>
-        <p style="font-size:25px;">Rua México, Jd. Independência, São Bernardo do Campo - SP</p>
-        <p style="font-size:25px;">Contato (WhatsApp): 11 94707-5966</p>
-        <p style="font-size:25px;">Contato (E-mail): mirelaviana.melo@gmail.com</p>
+    <div class="Navbar">
+        <div><a href="Index.html">Home</a></div>
+        <div><a href="Galeria.html">Galeria</a></div>
+        <div><a href="Lista.html">Lista</a></div>
+
     </div>
+    <div class="container">
+        <div>
+            <img src="Mirela.jpg" alt="Mirela Viana">
+        </div>
+
+        <div class="rightText">
+            <pre>
+                <p>
+Data de nascimento: 27/09/2006
+Rua México, Jd. Independência, São Bernardo do Campo - SP
+Contato (WhatsApp): (+55) 11 94707-5966
+Contato (E-mail): mirelaviana.melo@gmail.com
+                </p>         
+            </pre>
+        </div>
+    </div>
+    <h1 style="font: size 20px;; color:rgb(0, 0, 0); font-family:'Times New Roman', Times, serif">Mirela de Melo
+        Viana</h1>
+    <hr>
+    <div>
+    <h2>Objetivo profissional</h2>
+    <p>Busco uma posição na área de jogos digitais e design de sites, onde eu possa desenvolver minhas habilidades e
+        conhecimentos nesses campos, contribuindo para a criação de produtos criativos e inovadores. Meu objetivo é
+        trabalhar em uma empresa que valorize a criatividade e o trabalho e utilizar minha criatividade e habilidades
+        técnicas para ajudar a criar experiências interativas e envolventes para os usuários. Meu objetivo é contribuir
+        para o crescimento da empresa e para a inovação tecnológica na indústria de jogos digitais e design de sites.
+    </p>
+    <hr>
+    </div>
+
+    <div>
+    <h2> Formações acadêmicas</h2>
+    <p>SESI - Ensino médio - Em progesso</p>
+    <p>SENAI - Curso técnico - Desenvolvimento de sistemas - Em progresso</p>
+    <hr>
+    </div>
+
+    <div>
+    <h2>experiência profissional</h2>
+    <p>Sem experiência profissional</p>
+    <hr>
+    </div>
+
+    <h2>Habilidades</h2>
+    <ul>
+    <h3>Hard Skills</h3>
+    <p>Pacote office: Básico</p>
+    <p></p>
+    </ul>
+
+    <li>
+    <h3>Soft Skills</h3>
+    <p>Criatividade</p>
+    <p></p>
+    </li>
+
+
+    </ul>
+    <h5> </h5>
+
 </body>
