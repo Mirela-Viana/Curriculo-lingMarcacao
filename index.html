@@ -10,34 +10,51 @@
 <style>
 
 .Navbar {
+    right: 91.5%;
     position: fixed;
+    z-index: 10000;
     display: flex;
-    width: 100%;
-    margin: -10px;
-    height: 15%;
-    justify-content: space-around;
-    background-color: #00000065;
+    flex-direction: column;
+    height: 97%;
+    width: 10%;
+    background-color: #00000028;
     border-radius: 20px;
+    text-align: center;
+    justify-content: center;
     align-items: center;
 }
 
 .Navbar div {
+    margin-top: 20px;
+    margin-right: 40px;
     font-size: 50px;
-    background-color: #00000065;
-    border-radius: 20px;
     width: 10%;
-    height: 75%;
-    text-align: center;
+    height: 55%;
 }
 
 .Navbar div a {
     text-decoration: none;
     color: white;
 }
+
+.Navbar div a img {
+    width: 80px;
+    height: 80px;
+}
+
     img {
         border-radius: 360px;
         width: 200px;
         height: 200px;
+    }
+
+    .fundo{
+        margin-top: -130px;
+        order: -1;
+        position: relative;
+        border-radius: 0px;
+        width: 80%;
+        height: 220%;
     }
 
     p {
@@ -48,11 +65,30 @@
 
     body {
         background-color: rgb(201, 200, 200);
+        display: flex;
+        justify-content: center;
+    }
+
+    .corpo {
+        position: absolute;
+        margin-top: 80px;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .margem{
+        width: 80%;
     }
 
     .container {
         display: flex;
         align-items: center;
+    }
+
+    .rodape {
+        width: 10%;
     }
 
     .rightText {
@@ -73,14 +109,17 @@
         font-family: 'Times New Roman', Times, serif
     }
 </style>
+<div class="Navbar">
+    <div><a href="Index.html"><img src="R.png"></a></div>
+    <div><a href="Formação.html"><img src="R (1).png"></a></div>
+    <div><a href="Habilidades.html"><img src="R (2).png"></a></div>
+    <div><a href= "Experiencia.html"><img src="R (3).png"></a></div>
 
+</div>
 <body>
-    <div class="Navbar">
-        <div><a href="Index.html">Home</a></div>
-        <div><a href="Galeria.html">Galeria</a></div>
-        <div><a href="Lista.html">Lista</a></div>
-
-    </div>
+    <img class="fundo" src="clipboard-01.png">
+    <div class="corpo">
+        <div class="margem">
     <div class="container">
         <div>
             <img src="Mirela.jpg" alt="Mirela Viana">
@@ -140,5 +179,6 @@ Contato (E-mail): mirelaviana.melo@gmail.com
 
     </ul>
     <h5> </h5>
-
+</div>
+</div>
 </body>
